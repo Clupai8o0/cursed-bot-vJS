@@ -1,0 +1,29 @@
+{
+  "prefix": "~",
+  "activities": [
+    {
+      "activity": "with your mum",
+      "type": "PLAYING"
+    },
+    {
+      "activity": "your mum",
+      "type": "WATCHING"
+    },
+    {
+      "activity": "with your data",
+      "type": "PLAYING"
+    },
+    {
+			"activity": "life",
+			"type": "PLAYING"
+		},
+    {
+			"activity": "you",
+			"type": "LISTENING"
+		},
+    {
+			"activity": "Jobless Reincarnation",
+			"type": "WATCHING"
+		}
+  ]
+}

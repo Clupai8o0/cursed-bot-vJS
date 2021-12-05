@@ -1,0 +1,34 @@
+{
+	"name": "cursed-bot",
+	"version": "1.0.0",
+	"description": "A bot made by Clupai",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+		"deploy": "nodemon src/deploy-commands.js"
+	},
+	"keywords": [
+		"cursed",
+		"discord-bot",
+		"discord",
+		"chat-bot"
+	],
+	"author": "Clupai8o0",
+	"license": "ISC",
+	"devDependencies": {
+		"env-cmd": "^10.1.0",
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"@discordjs/builders": "^0.8.2",
+		"@discordjs/rest": "^0.1.0-canary.0",
+		"bad-words": "^3.0.4",
+		"colors": "^1.4.0",
+		"discord-api-types": "^0.24.0",
+		"discord.js": "^13.3.1",
+		"dotenv": "^10.0.0",
+		"mongodb": "^4.1.4",
+		"wokcommands": "^1.5.3"
+	}
+}

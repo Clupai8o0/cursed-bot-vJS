@@ -1,0 +1,51 @@
+{
+	"player_data": {
+		"id": 0,
+		"name": "",
+		"gender": "",
+		"info": "",
+    "body_type": "",
+		"titles": [],
+		"friends": [],
+		"marriage": {},
+		"guild": null,
+		"state": {
+			"action": "idle",
+			"info": null
+		},
+		"class": null,
+		"xp": 0,
+		"sub_class": {},
+		"element": {
+			"type": null,
+			"xp": 0
+		},
+		"special_element": {},
+		"spirit": {},
+		"inventory": [],
+		"money": 10,
+		"equipment": {
+			"weapon": {
+				"right_hand": null,
+				"left_hand": null
+			},
+			"armour": {
+				"arms": null,
+				"body": null,
+				"head": null,
+				"legs": null,
+				"feet": null
+			}
+		},
+		"status": {
+			"atk": 0,
+			"def": 0,
+			"spd": 0,
+			"health": 100,
+      "fatigue": 0,
+      "energy": 100,
+      "luck": 10
+		}
+	},
+  "elements": ["fire", "earth", "water", "wind", null, "metal", "lightening"]
+}
